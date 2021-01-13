@@ -3,7 +3,7 @@ import org.apache.spark.sql.functions.desc
 import org.apache.spark.sql.functions.expr
 import org.apache.spark.sql.functions.{col, hour, minute, second, from_unixtime, to_date, unix_timestamp}
 
-object Hello {
+object Main {
   def main(args: Array[String]) = {
     val spark = org.apache.spark.sql.SparkSession.builder
       .master("local") //# Change it as per your cluster
